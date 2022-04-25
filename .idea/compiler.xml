@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-bean" />
+        <module name="java-beans-demo" />
+        <module name="ioc-container-overview" />
+        <module name="dependency-lookup" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dependency-lookup" target="8" />
+      <module name="ioc-container-overview" target="8" />
+      <module name="java-beans-demo" target="8" />
+      <module name="spring-bean" target="8" />
+      <module name="thinking-in-spring" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

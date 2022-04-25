@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="thinking-in-spring:war">
+    <output-path>$PROJECT_DIR$/thinking-in-spring/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>thinking-in-spring</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="thinking-in-spring.war">
+      <element id="artifact" artifact-name="thinking-in-spring:war exploded" />
+    </root>
+  </artifact>
+</component>
