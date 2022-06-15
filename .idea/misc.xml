@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/thinking-in-spring/pom.xml" />
         <option value="$PROJECT_DIR$/java-beans-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/design-model/pom.xml" />
       </list>
     </option>
   </component>
