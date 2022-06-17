@@ -12,6 +12,7 @@
         <module name="java-beans-demo" />
         <module name="ioc-container-overview" />
         <module name="dependency-lookup" />
+        <module name="work-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="java-beans-demo" target="8" />
       <module name="spring-bean" target="8" />
       <module name="thinking-in-spring" target="1.7" />
+      <module name="work-util" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
