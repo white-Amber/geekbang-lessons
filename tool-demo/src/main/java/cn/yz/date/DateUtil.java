@@ -2,7 +2,6 @@ package cn.yz.date;
 
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.commons.lang3.time.DateUtils;
-import org.springframework.util.Assert;
 
 import java.io.Serializable;
 import java.text.ParseException;
@@ -629,7 +628,9 @@ public class DateUtil {
      * @return 年龄
      */
     public static int age(Date birthday, Date dateToCompare) {
-        Assert.notNull(birthday, "Birthday can not be null !");
+        if (birthday == null) {
+            throw new IllegalArgumentException("Birthday can not be null !");
+        }
         if (null == dateToCompare) {
             dateToCompare = new Date();
         }
@@ -742,8 +743,12 @@ public class DateUtil {
          * @param isAbs 日期间隔是否只保留绝对值正数
          */
         public DateBetween(Date begin, Date end, boolean isAbs) {
-            Assert.notNull(begin, "Begin date is null !");
-            Assert.notNull(end, "End date is null !");
+            if (begin == null) {
+                throw new IllegalArgumentException("Begin date is null !");
+            }
+            if (end == null) {
+                throw new IllegalArgumentException("End date is null !");
+            }
 
             if (isAbs && begin.after(end)) {
                 // 间隔只为正数的情况下，如果开始日期晚于结束日期，置换之
