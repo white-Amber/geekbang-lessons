@@ -11,7 +11,8 @@ import java.util.Date;
 
 /**
  * 日期工具类<br/>
- * 如若新增函数，请添加完整的JDK标准注释。
+ * 如若新增函数，请添加完整的JDK标准注释<br/>
+ * 该类是保证线程安全的
  * @Description
  * @Date 2023/6/13
  * @Author yuze
