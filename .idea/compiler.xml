@@ -16,15 +16,5 @@
         <module name="work-util" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dependency-lookup" target="1.8" />
-      <module name="design-model" target="1.8" />
-      <module name="ioc-container-overview" target="1.8" />
-      <module name="java-beans-demo" target="1.8" />
-      <module name="spring-bean" target="1.8" />
-      <module name="thinking-in-spring" target="1.7" />
-      <module name="tool-demo" target="1.8" />
-      <module name="work-util" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
